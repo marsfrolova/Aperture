@@ -98,3 +98,10 @@
     color: #FFFFFF;
     list-style: none;    
 }
+
+.what{
+    max-width: 1200px;
+    display: flex;
+    padding: 120px 120px 100px 120px;
+    background: #000000;    
+}
