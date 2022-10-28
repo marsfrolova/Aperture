@@ -6,7 +6,7 @@
 /*header*/
 .header {
     padding: 24px 0;
-    background: #181818;
+    background: #181818;    
     
 }
 .header_logo {
@@ -16,6 +16,7 @@
     justify-content: space-between; 
     padding: 0 20px 0 22px; 
     box-sizing: border-box;
+    align-items: center;
 }
 .header_list{
     list-style: none; 
