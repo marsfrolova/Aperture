@@ -1,5 +1,4 @@
-body{
-    max-width: 1440px;
+body{    
     margin: auto;
 }
 *{
@@ -10,7 +9,10 @@ body{
 /*header*/
 .header {
     padding: 24px 0;
-    background: #181818;    
+    background: #181818; 
+    position: fixed; 
+    z-index: 1;
+    width: 100%;  
     
 }
 .header_logo {
@@ -97,14 +99,14 @@ body{
     text-align: center;
     color: #C0C0C0;
 }
-.list ul{
+.hero ul{
 display: flex;
     list-style: none;
    position: absolute;
     right: 40px;
     bottom: 40px;
 }
-.list ul li{
+.hero ul li{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -178,7 +180,7 @@ margin-bottom: 42px;
     max-width: 576px;
     position: relative;
 }
-.what_img div{
+.what_div{
     position: absolute;
     width: 100%;
     height: 100%;
