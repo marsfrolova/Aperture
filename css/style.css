@@ -100,9 +100,9 @@ body{
     color: #C0C0C0;
 }
 .hero ul{
-display: flex;
+    display: flex;
     list-style: none;
-   position: absolute;
+    position: absolute;
     right: 40px;
     bottom: 40px;
 }
@@ -148,28 +148,32 @@ display: flex;
 
  /*what*/
 .what{      
-    padding: 120px 136px 100px 136px;
+    padding: 120px 100px;
     background: #000000;    
+}
+.what_container{
+    max-width: 1200px;
+    margin: auto;
 }
 .what_text h2{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 42px;
-text-align: center;
-color: #FFFFFF;
-margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
 .what_text h3{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 23px;
-line-height: 30px;
-text-align: center;
-color: #C0C0C0;
-margin-bottom: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
 }
 .what_img{
     display: flex;
@@ -196,23 +200,23 @@ margin-bottom: 42px;
 
 .what_img h4{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
 .what_img p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #C0C0C0;
-margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
 }
 .what_article a{
     display: flex;
