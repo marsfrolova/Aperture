@@ -300,11 +300,7 @@ body{
 .past_span{
     display: flex;
     justify-content: center;
-    
-    }
-    .owl-dot .active{
-        background-color: red;
-      }
+}
 
 
 
