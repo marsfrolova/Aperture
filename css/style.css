@@ -245,4 +245,66 @@ body{
 }
 
 
+/*past*/
+.past{   
+    background: #000000;
+    border-radius: 0px;
+    padding: 100px 0;
+    margin: auto;
+}
+.past_div .past_article{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    
+}
+.past_article{
+    padding: 40px 46px;
+    margin: auto;
+}
+.past_title h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.past_article img{
+    max-width: 128px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.past_span span{
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 50%; 
+    margin-right: 10px;   
+}
+.past_span{
+    display: flex;
+    justify-content: center;
+    
+    }
+    .owl-dot .active{
+        background-color: red;
+      }
+
+
 
