@@ -288,6 +288,26 @@ body{
     justify-content: center;
     margin: auto;
 }
+/* .owl-carousel .owl-dots button.owl-dot .past_span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+     background-color: white;
+}
+.owl-carousel .owl-dots button.owl-dot.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(83, 83, 83);
+}
+.owl-dots{
+    display: flex;
+    justify-content: space-evenly;
+}
+.owl-carousel .owl-item img{
+    margin: auto;
+    max-width: 200px;
+} */
 .past_span span{
     display: inline-flex;
     width: 10px;
