@@ -12,8 +12,7 @@ body{
     background: #181818; 
     position: fixed; 
     z-index: 1;
-    width: 100%;  
-    
+    width: 100%;     
 }
 .header_logo {
     max-width: 1200px; 

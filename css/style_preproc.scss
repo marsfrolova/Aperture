@@ -1,0 +1,11 @@
+$main_font: 'Poppins', sans-serif;
+$white:#FFFFFF;
+$main_color:#181818;
+
+.header {
+    padding: 24px 0;
+    background: #181818; 
+    position: fixed; 
+    z-index: 1;
+    width: 100%;     
+}
