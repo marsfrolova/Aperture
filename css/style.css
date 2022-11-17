@@ -288,7 +288,7 @@ body{
     justify-content: center;
     margin: auto;
 }
-/* .owl-carousel .owl-dots button.owl-dot .past_span{
+.owl-carousel .owl-dots button.owl-dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -307,8 +307,8 @@ body{
 .owl-carousel .owl-item img{
     margin: auto;
     max-width: 200px;
-} */
-.past_span span{
+}
+/* .past_span span{
     display: inline-flex;
     width: 10px;
     height: 10px;
@@ -319,7 +319,7 @@ body{
 .past_span{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 
